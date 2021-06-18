@@ -1,0 +1,34 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(2, 0, 126);
+	color: white;
+	font-family: monospace;
+}
+
+div, h1, p {
+	margin: 0;
+	padding: 0;
+}
+
+a, a:visited {
+	color: #ffffff;
+	transition: 100ms;
+}
+
+a:hover {
+	color: transparent;
+}
+
+/* ----------App---------- */
